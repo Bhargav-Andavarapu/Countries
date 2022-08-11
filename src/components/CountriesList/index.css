@@ -1,0 +1,35 @@
+.countries-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #94a3b8;
+  background-color: transparent;
+  padding: 5px 20px 5px 20px;
+}
+
+.country-name {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #f1f5f9;
+}
+
+.un-active-button {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.active-button {
+  border: none;
+  background-color: #3b82f6;
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+  padding: 5px 15px 5px 15px;
+  border-radius: 5px;
+}
